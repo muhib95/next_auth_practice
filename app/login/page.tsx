@@ -1,8 +1,12 @@
+"use client";
+import LoginForm from '@/components/loginForm';
 import React from 'react';
 
 const LoginPag = () => {
     return (
-        <div>
+        <div className='login'>
+            <h1>Welcome to the LoginPage</h1>
+            <LoginForm></LoginForm>
             
         </div>
     );

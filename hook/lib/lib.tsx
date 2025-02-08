@@ -12,7 +12,7 @@ isLogin:false
 }
 
 export const sessionOptions:SessionOptions={
-    password:process.env.SECRIT_KEY!,
+    password:process.env.SECRET_KEY!,
     cookieName:"my-session",
     cookieOptions:{
         httpOnly:true,
